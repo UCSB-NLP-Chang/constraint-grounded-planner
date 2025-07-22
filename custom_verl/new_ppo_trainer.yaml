@@ -1,0 +1,7 @@
+# Highlithgt the changes we made to the default config file
+data:
+  data_class: DynamicRationalCodeRLHFDataset
+  prompt_file: prompts/qwen-coder-v1.py
+
+trainer:
+  use_custom: False

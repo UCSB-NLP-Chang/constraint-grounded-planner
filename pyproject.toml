@@ -1,0 +1,74 @@
+[project]
+name = "src"
+version = "0.1"
+description = "A short description of your package"
+authors = [
+    { name = "Jiabao Ji", email = "jiabaoji@ucsb.edu" }
+]
+license = { text = "MIT" }
+keywords = ["example", "project"]
+dependencies = [
+    "setuptools",
+    "wheel",
+    "omegaconf",
+    "wandb",
+    "hydra-core",
+    "numpy",
+    "pandas",
+    "codetiming",
+    "structlog",
+    "backoff",
+    "openai",
+    "protobuf",
+    "sentencepiece",
+    "rich",
+    "tiktoken",
+    "sentencepiece",
+
+    "accelerate",
+    "codetiming",
+    "datasets",
+    "dill",
+    "hydra-core",
+    "numpy",
+    "peft",
+    "pyarrow>=15.0.0",
+    "pybind11",
+    "pylatexenc",
+    "ray>=2.10",
+    "tensordict<0.6",
+    "transformers",
+    # "vllm<=0.6.3.post1",
+    # "vllm<=0.6.3",
+    "vllm==0.7.3",
+    "wandb",
+    "tree_sitter",
+    "tree_sitter_python",
+    "backoff",
+    "structlog",
+    "codetiming",
+    "rich",
+
+    "pygame",
+    "anthropic",
+
+    # "mujoco==2.3.0",
+    # "dm-control==1.0.8",
+    # "open3d",
+    # "matplotlib",
+    # "natsort==8.0.2",
+    # "opencv-python==4.5.5.64",
+    # "pyquaternion==0.9.9",
+    # "transforms3d==0.4.1",
+
+    # "scipy==1.8.0",
+]  # Add your dependencies here, e.g., ["requests>=2.20.0"]
+
+[build-system]
+requires = [
+    "setuptools"
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["inference", "custom_tools", "prompts", "simulation", "custom_verl", "verl"]
